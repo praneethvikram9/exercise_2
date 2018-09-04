@@ -1,0 +1,62 @@
+
+$red:#DD1C1A;
+$blue:#225560;
+$dk_blue:#003459;
+$black:#171D1C;
+$white:#FFFFFF;
+$lt_blue:#5863F8;
+$lt_yellow:#F3DE8A;
+$dk_black:#020202;
+$lt_green:#16DB65;
+$green:#058C42;
+
+.display-4{
+	color:$lt_blue;
+	text-align:center;
+	font-size:2 em;
+
+}
+
+
+a{
+	float:center;
+}
+
+.btn{
+	float:center;
+
+}
+
+.jumbotron{
+		color:$black;
+		background-color:$white;
+
+}
+.lead{
+	text-align:center;
+}
+
+.parent{
+	display:flex;
+	justify-content:center;
+
+}
+
+.card{
+	margin-right:5px;
+}
+.card-text{
+	font-weight:bold;
+}
+
+.btn-group{
+	width:100%;
+}
+
+.signup{
+	width:60%;
+	margin:auto;
+}
+
+
+
