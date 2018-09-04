@@ -10,6 +10,11 @@ $dk_black:#020202;
 $lt_green:#16DB65;
 $green:#058C42;
 
+body{
+	width:100%;
+	overflow-x:hidden;
+}
+
 .display-4{
 	color:$lt_blue;
 	text-align:center;
@@ -42,9 +47,7 @@ a{
 
 }
 
-.card{
-	margin-right:5px;
-}
+
 .card-text{
 	font-weight:bold;
 }
@@ -57,6 +60,85 @@ a{
 	width:60%;
 	margin:auto;
 }
+
+.form-inline{
+    width:30%;
+    align-content:center;
+	margin:auto;
+}
+
+.sr-only{
+	width:100%;
+}
+
+.card-title{
+	text-align:center;
+}
+
+.subscribe{
+	width:70%;
+	margin:auto;
+}
+
+.follow{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.follow li{
+	display:inline;
+	list-style:none;
+}
+
+.card-text{
+	text-align:center;
+}
+
+.footer{
+	background-color:$black;
+	color:$white;
+	text-align:center;
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.follow{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+
+#f_3{
+	margin-top:20px;
+}
+
+
+#f_2{
+	margin-top:15px;
+}
+
+#f_1{
+	margin-top:10px;
+}
+@media screen and (max-width:600px){
+	.follow{
+	    display:flex;
+	    flex-direction:column;
+	}
+	.follow #f_1,#f_2{
+		flex:100%;
+		max-width: 100%;
+
+	}
+}
+
+
+
 
 
 
