@@ -2,6 +2,7 @@
 body{
 	@include func4(100%);
 	overflow-x:hidden;
+	background:$l_pink;
 }
 
 a{
