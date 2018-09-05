@@ -1,0 +1,12 @@
+@media screen and (max-width:600px){
+	.follow{
+	    @include func3(flex);
+	    flex-direction:column;
+	}
+	.follow #f_1,#f_2{
+		flex:100%;
+		max-width: 100%;
+
+	}
+
+}

@@ -1,0 +1,9 @@
+
+body{
+	@include func4(100%);
+	overflow-x:hidden;
+}
+
+a{
+	@include func1(center);
+}

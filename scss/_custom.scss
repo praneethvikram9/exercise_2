@@ -11,45 +11,13 @@ $lt_green:#16DB65;
 $green:#058C42;
 
 
-/*start of mixins */
-
-@mixin func1($x){
-	float:$x;	
-}
-
-@mixin func2($y){
-	text-align:$y;
-}
-
-@mixin func3($z){
-	display :$z;
-}
-
-@mixin func4($u){
-	width:$u;
-}
-
-/*mixin end */
 
 
 
 
 
-body{
-	@include func4(100%);
-	overflow-x:hidden;
-}
 
 
-.navbar{
-
-	a{
-
-	   color:$dk_blue;
-	   font-size : 3 em;
-
-	}
-}
 
 .display-4{
 	color:$lt_blue;
@@ -59,20 +27,10 @@ body{
 }
 
 
-a{
-	@include func1(center);
-}
 
-.btn{
-	@include func1(center);
-}
 
-.jumbotron{
-		color:$black;
-		background-color:$white;
-		background:url('/images/hero.png');
 
-}
+
 .lead{
 	@include func2(center);
 	color:$white;
@@ -115,32 +73,9 @@ a{
 	margin:auto;
 }
 
-.follow{
-	@include func3(flex);
-	flex-direction:row;
-	justify-content:space-between;
-}
-
-.follow li{
-	display:inline;
-	list-style:none;
-}
 
 .card-text{
 	@include func2(center);
-}
-
-.footer{
-	background-color:$black;
-	color:$white;
-	@include func2(center);
-	@include func3(flex);
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	background: url('/images/footer.jpg');
-	background-size:cover;
-
 }
 
 .follow{
@@ -163,20 +98,12 @@ a{
 	margin-top:10px;
 }
 
-/*media queries */
 
-@media screen and (max-width:600px){
-	.follow{
-	    @include func3(flex);
-	    flex-direction:column;
-	}
-	.follow #f_1,#f_2{
-		flex:100%;
-		max-width: 100%;
 
-	}
 
-}
+
+
+
 
 
 

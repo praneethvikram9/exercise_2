@@ -1,0 +1,22 @@
+
+
+
+@mixin func1($x){
+	float:$x;	
+}
+
+@mixin func2($y){
+	text-align:$y;
+}
+
+@mixin func3($z){
+	display :$z;
+}
+
+@mixin func4($u){
+	width:$u;
+}
+
+.btn{
+	@include func1(center);
+}
