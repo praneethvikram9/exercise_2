@@ -86,6 +86,48 @@ $green:#058C42;
 
 
 }
+/*accordion*/
+
+
+#accordion{
+
+	background:$dk_blue;
+
+	.col-sm-4{
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+	.card-title img{
+	border-radius: 70%;
+	width:18%;
+
+	}
+	.card-title i{
+	float:right;
+	color:#1DA1F2;
+	}
+
+}
+
+#collapseTwo{
+	.card-body{
+	background:$dk_blue;
+	color:$white;
+	}
+}
+
+
+
+
+
+
+.card-body{
+	text-align:center;
+}
+
+
+
+/*accordion ends*/
 
 #f_3{
 	margin-top:20px;
