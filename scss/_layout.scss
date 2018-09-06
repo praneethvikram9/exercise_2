@@ -23,6 +23,198 @@
 }
 
 
+.display-4{
+	color:$lt_blue;
+	@include func2(center);
+	font-size:2 em;
+
+}
+
+
+
+
+
+
+.lead{
+	@include func2(center);
+	color:$white;
+}
+
+.parent{
+	@include func3(flex);
+	justify-content:center;
+
+}
+
+
+.card-text{
+	font-weight:bold;
+}
+
+.btn-group{
+	@include func4(100%);
+}
+
+.signup{
+	@include func4(95%);
+	margin:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:$l_pink;
+	color:$white;
+	
+
+	.form-group{
+
+	padding-left:5px;
+	padding-right:5px;
+	width:90%;
+	margin:auto;
+
+	}
+
+	.col-sm-5{
+	background:$l_blue;
+	color:$white;
+	border:3px solid $l_blue;
+	margin:auto;
+     
+     button{
+     margin-top:10px;
+     }
+
+     .btn{
+     background:$dk_blue;
+     color:$white;
+     }
+
+     h4{
+     text-align:center;
+     color:gold;
+     }
+
+	}
+
+
+
+}
+.form-inline{
+    @include func4(30%);
+    align-content:center;
+	margin:auto;
+}
+
+.sr-only{
+	@include func4(100%);}
+
+.card-title{
+	@include func2(center);}
+
+.subscribe{
+	@include func4(70%);
+	margin:auto;
+}
+
+
+.card-text{
+	@include func2(center);
+}
+
+.follow{
+	@include func3(flex);
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+
+
+}
+
+/*accordion*/
+
+
+#accordion{
+
+    background:$dk_blue;
+
+
+
+	.col-sm-4{
+	margin-top:5px;
+	margin-bottom:5px;
+	}
+	.card-title img{
+	border-radius: 70%;
+	width:18%;
+
+	}
+	.card-title i{
+	float:right;
+	color:#1DA1F2;
+	}
+
+	.card{
+	margin-left:10px;
+	margin-right:10px;
+	}
+
+	.card{
+	background:$dk_blue;
+	}
+
+	#headingOne{
+	background:$dk_blue;
+	margin-top:10px;
+	}
+
+	#headingTwo{
+	background:$dk_blue;
+	}
+
+	.col-sm-4{
+	  .card{
+	   background:$white;
+	  }
+	}
+
+	#collapseTwo{
+	.parent{
+	background:$dk_blue;
+	}
+	}
+}
+
+#collapseTwo{
+	.card-body{
+	background:$dk_blue;
+	color:$white;
+	}
+}
+
+
+
+
+
+
+.card-body{
+	text-align:center;
+}
+
+
+
+/*accordion ends*/
+
+#f_3{
+	margin-top:20px;
+    }
+#f_2{
+	margin-top:15px;
+}
+
+#f_1{
+	margin-top:10px;
+}
+
+
 
 
 .footer{
