@@ -227,5 +227,14 @@
 	justify-content: space-between;
 	background-size:cover;
 
+	a:hover{
+
+	text-decoration:underline;
+	background:$blue;
+	color:$black;
+
+
+	}
+
 }
 
